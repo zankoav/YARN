@@ -1,0 +1,6 @@
+framework module Pods_YARN {
+  umbrella header "Pods-YARN-umbrella.h"
+
+  export *
+  module * { export * }
+}

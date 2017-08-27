@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		602EB6B31F52181400CABA2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602EB6B21F52181400CABA2F /* AppDelegate.swift */; };
-		602EB6B51F52181400CABA2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602EB6B41F52181400CABA2F /* ViewController.swift */; };
 		602EB6B81F52181400CABA2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602EB6B61F52181400CABA2F /* Main.storyboard */; };
 		602EB6BA1F52181400CABA2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602EB6B91F52181400CABA2F /* Assets.xcassets */; };
 		602EB6BD1F52181400CABA2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602EB6BB1F52181400CABA2F /* LaunchScreen.storyboard */; };
 		602EB6C81F52181400CABA2F /* YARNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602EB6C71F52181400CABA2F /* YARNTests.swift */; };
 		602EB6D31F52181400CABA2F /* YARNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602EB6D21F52181400CABA2F /* YARNUITests.swift */; };
+		602EB6EB1F52191E00CABA2F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602EB6E91F52191E00CABA2F /* MainViewController.swift */; };
+		602EB6EC1F52191E00CABA2F /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602EB6EA1F52191E00CABA2F /* EpisodeViewController.swift */; };
+		602EB6EE1F52192900CABA2F /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602EB6ED1F52192900CABA2F /* StoryTableViewCell.swift */; };
+		602EB6F11F52193100CABA2F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602EB6EF1F52193100CABA2F /* Message.swift */; };
+		602EB6F21F52193100CABA2F /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602EB6F01F52193100CABA2F /* Story.swift */; };
+		60F6DACC1F52FB2000C26151 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F6DACA1F52FB2000C26151 /* MessageView.xib */; };
+		60F6DACD1F52FB2000C26151 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6DACB1F52FB2000C26151 /* MessageView.swift */; };
+		F0D7E3F775C62A75374FFE0A /* Pods_YARN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77242AA173C0E22A97EBC6B0 /* Pods_YARN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27573DD64F5B391B68A0E725 /* Pods-YARN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YARN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YARN/Pods-YARN.debug.xcconfig"; sourceTree = "<group>"; };
 		602EB6AF1F52181400CABA2F /* YARN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YARN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602EB6B21F52181400CABA2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		602EB6B41F52181400CABA2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		602EB6B71F52181400CABA2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		602EB6B91F52181400CABA2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		602EB6BC1F52181400CABA2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		602EB6CE1F52181400CABA2F /* YARNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YARNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		602EB6D21F52181400CABA2F /* YARNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARNUITests.swift; sourceTree = "<group>"; };
 		602EB6D41F52181400CABA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602EB6E91F52191E00CABA2F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		602EB6EA1F52191E00CABA2F /* EpisodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		602EB6ED1F52192900CABA2F /* StoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		602EB6EF1F52193100CABA2F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		602EB6F01F52193100CABA2F /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		60F6DACA1F52FB2000C26151 /* MessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageView.xib; sourceTree = "<group>"; };
+		60F6DACB1F52FB2000C26151 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		77242AA173C0E22A97EBC6B0 /* Pods_YARN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YARN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		895F2B82115B428001653CF0 /* Pods-YARN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YARN.release.xcconfig"; path = "Pods/Target Support Files/Pods-YARN/Pods-YARN.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D7E3F775C62A75374FFE0A /* Pods_YARN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CCD0EE282D4DA73420F8574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27573DD64F5B391B68A0E725 /* Pods-YARN.debug.xcconfig */,
+				895F2B82115B428001653CF0 /* Pods-YARN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		602EB6A61F52181400CABA2F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				602EB6C61F52181400CABA2F /* YARNTests */,
 				602EB6D11F52181400CABA2F /* YARNUITests */,
 				602EB6B01F52181400CABA2F /* Products */,
+				2CCD0EE282D4DA73420F8574 /* Pods */,
+				E69B6EE4F8A5EB70E267BEE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +125,14 @@
 		602EB6B11F52181400CABA2F /* YARN */ = {
 			isa = PBXGroup;
 			children = (
+				60F6DAC91F52FB0A00C26151 /* Views */,
 				602EB6B21F52181400CABA2F /* AppDelegate.swift */,
-				602EB6B41F52181400CABA2F /* ViewController.swift */,
+				602EB6E61F5218F500CABA2F /* Entity */,
+				602EB6E71F52190900CABA2F /* TableViewCells */,
+				602EB6E81F52191100CABA2F /* ViewControllers */,
 				602EB6B61F52181400CABA2F /* Main.storyboard */,
-				602EB6B91F52181400CABA2F /* Assets.xcassets */,
 				602EB6BB1F52181400CABA2F /* LaunchScreen.storyboard */,
+				602EB6B91F52181400CABA2F /* Assets.xcassets */,
 				602EB6BE1F52181400CABA2F /* Info.plist */,
 			);
 			path = YARN;
@@ -125,6 +156,49 @@
 			path = YARNUITests;
 			sourceTree = "<group>";
 		};
+		602EB6E61F5218F500CABA2F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				602EB6EF1F52193100CABA2F /* Message.swift */,
+				602EB6F01F52193100CABA2F /* Story.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		602EB6E71F52190900CABA2F /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				602EB6ED1F52192900CABA2F /* StoryTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		602EB6E81F52191100CABA2F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				602EB6E91F52191E00CABA2F /* MainViewController.swift */,
+				602EB6EA1F52191E00CABA2F /* EpisodeViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		60F6DAC91F52FB0A00C26151 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60F6DACA1F52FB2000C26151 /* MessageView.xib */,
+				60F6DACB1F52FB2000C26151 /* MessageView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E69B6EE4F8A5EB70E267BEE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77242AA173C0E22A97EBC6B0 /* Pods_YARN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 602EB6D71F52181400CABA2F /* Build configuration list for PBXNativeTarget "YARN" */;
 			buildPhases = (
+				E14670FC1B2D2D31304A3A29 /* [CP] Check Pods Manifest.lock */,
 				602EB6AB1F52181400CABA2F /* Sources */,
 				602EB6AC1F52181400CABA2F /* Frameworks */,
 				602EB6AD1F52181400CABA2F /* Resources */,
+				FE54DAB69690BB42A6B96020 /* [CP] Embed Pods Frameworks */,
+				412F51CB9AF8323A506F6219 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F6DACC1F52FB2000C26151 /* MessageView.xib in Resources */,
 				602EB6BD1F52181400CABA2F /* LaunchScreen.storyboard in Resources */,
 				602EB6BA1F52181400CABA2F /* Assets.xcassets in Resources */,
 				602EB6B81F52181400CABA2F /* Main.storyboard in Resources */,
@@ -257,13 +335,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		412F51CB9AF8323A506F6219 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YARN/Pods-YARN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14670FC1B2D2D31304A3A29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YARN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE54DAB69690BB42A6B96020 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YARN/Pods-YARN-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YARN/Pods-YARN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		602EB6AB1F52181400CABA2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				602EB6B51F52181400CABA2F /* ViewController.swift in Sources */,
+				602EB6F21F52193100CABA2F /* Story.swift in Sources */,
+				602EB6EB1F52191E00CABA2F /* MainViewController.swift in Sources */,
+				602EB6EC1F52191E00CABA2F /* EpisodeViewController.swift in Sources */,
+				602EB6F11F52193100CABA2F /* Message.swift in Sources */,
+				60F6DACD1F52FB2000C26151 /* MessageView.swift in Sources */,
 				602EB6B31F52181400CABA2F /* AppDelegate.swift in Sources */,
+				602EB6EE1F52192900CABA2F /* StoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +554,7 @@
 		};
 		602EB6D81F52181400CABA2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27573DD64F5B391B68A0E725 /* Pods-YARN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7J9747ADCA;
@@ -426,6 +568,7 @@
 		};
 		602EB6D91F52181400CABA2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895F2B82115B428001653CF0 /* Pods-YARN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7J9747ADCA;
@@ -514,6 +657,7 @@
 				602EB6D91F52181400CABA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		602EB6DA1F52181400CABA2F /* Build configuration list for PBXNativeTarget "YARNTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +666,7 @@
 				602EB6DC1F52181400CABA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		602EB6DD1F52181400CABA2F /* Build configuration list for PBXNativeTarget "YARNUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +675,7 @@
 				602EB6DF1F52181400CABA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
